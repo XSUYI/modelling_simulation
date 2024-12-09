@@ -1,0 +1,6 @@
+function [S,I,R] = SIR_Euler(delta_t,T,S0,I0,R0,lambda,beta,sigma,omega,mu,ds,di,dr)
+%forward Euler of a basic SIR model as a starting point
+%   S: susceptible, I: infectded, R: removed
+outputArg1 = inputArg1;
+outputArg2 = inputArg2;
+end
